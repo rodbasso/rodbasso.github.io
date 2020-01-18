@@ -54,6 +54,14 @@ footer a {
     font-family: 'Goudy Old Style', sans-serif;
 }
 
+li a
+{
+    
+    text-decoration: none;
+    
+}
+
+
 
 footer {
     font-size: .90rem;
