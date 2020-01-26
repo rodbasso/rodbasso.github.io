@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Arapey&Merienda&display=swap');
+
+body {
+    font-family: 'Merienda One', cursive;
+    font-size: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+    line-height: 1.5;
+    color: #003d6a
+}
+
+header,
+footer {
+    background-color: rgb(62, 65, 66);
+    padding: 5px;
+    text-align: center;
+}
+
+
+header img {
+    margin: 5px auto;
+    max-width: 75px;
+}
+
+h2,
+h3,
+h4 {
+    font-family: 'Arapey', serif;
+    color: #003d6a;
+}
+
+h1 {
+    font-size: 1rem;
+    line-height: 1.15;
+    color: #fff;
+}
+
+h2 {
+    font-size: 1rem;
+    line-height: .75;
+    color: #003d6a;
+}
+
+h3 {
+    font-size: 1.1rem;
+    color: rgb(0, 61, 106);
+}
+
+h4 {
+    font-size: .9rem;
+    font-weight: bold;
+    text-align: center;
+    color: #003d6a;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #aeb6b2;
+    box-shadow: 0 1px 10px gray;
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+nav ul a {
+    display: block;
+    color: #485219;
+    text-align: center;
+    padding: .75rem;
+    text-decoration: none;
+    font-size: .95rem;
+    font-weight: bold;
+
+}
+
+nav a:hover {
+    background-color: rgb(123, 152, 207);
+    color: rgba(240, 16, 16, 0.486);
+}
+
+.active {
+    background-color: rgb(147, 143, 158);
+    color: rgb(100, 104, 161);
+}
+
+main {
+    background-color: #FAFBFF;
+    border: 1px solid #CDE8F8;
+    padding: 10px;
+    margin: 10px auto;
+    font-size: .9rem;
+    padding: 0 30px 30px 30px;
+}
+
+main header {
+    background-color: #FAFDFF;
+    padding: 0;
+    line-height: 1.2;
+    border-bottom: solid 1.5px #393F92;
+    display: block;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0;
+}
+
+.container h4 {
+    color: #003d6a;
+}
+
+
+main img {
+    display: block;
+    margin: 20px auto;
+}
+
+main article {
+    display: block;
+    max-width: 100%;
+    padding: 10px;
+}
+
+main article h4 {
+    text-align: center;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+article {
+    display: block;
+    margin: 15px;
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.header {
+    color: #ffffff;
+    background-color: rgb(62, 65, 66);
+    box-shadow: 5px 5px 5px gray;
+
+}
+
+.header h4 {
+    color: #fff;
+}
+
+.navigation {
+    color: #ffffff;
+    background-color: #aeb6b2;
+    box-shadow: 5px 5px 5px gray;
+
+}
+
+.headings {
+    color: gray;
+    background-color: #FAFBFF;
+    box-shadow: 5px 5px 5px gray;
+    border-style: solid;
+}
+
+.headings h4 {
+    color: #000;
+
+}
+
+.body {
+    color: #ffffff;
+    background-color: rgb(24, 94, 138);
+    box-shadow: 5px 5px 5px gray;
+}
+
+footer {
+    font-size: .75rem;
+    color: #ffffff;
+}
+
+#updated {
+    color: yellow;
+    font-size: .80rem;
+    margin: 1px;
+}
