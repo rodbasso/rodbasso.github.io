@@ -1,4 +1,4 @@
-@media only screen and (min-width: 70em) {
+@media only screen and (min-width: 60em) {
     
     header img {
         width: 110px;
@@ -8,6 +8,30 @@
         font-size:1.25em;
     }
 
+    .navigation {
+        display: flex;
+      }
+
+    .navigation li:first-child {
+        display: none;
+      }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+      } 
+        
+      .navigation .active {
+          color: #f6dcdc;
+      }
+      
+      .navigation a:hover {
+          background-color: #9dc3c2;
+      
+      }
+      
+      .responsive li {
+          display: block;
+      }
     
-  
-    }
+      }
