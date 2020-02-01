@@ -1,5 +1,5 @@
 @media only screen and (min-width: 33em) {
-    header img{
+    header img {
         width: 90px;
     }
 
@@ -11,13 +11,10 @@
     h1 {
         font-size: 2.75em;
         margin-bottom: 0.1em;
-      }
-
-    footer {
-        
-        font-size: 16px;
-        
-    
     }
 
+    footer {
+
+        font-size: 16px;
+    }
 }
