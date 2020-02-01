@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Arapey|Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: rgb(62, 65, 66);
+    text-align: center;
+    color: #fff;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+header img {
+    display: flex;
+    padding: 1px;
+    width: 50px;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+h1 {
+    font-size: 1.7em;
+    margin-bottom: 0.4em;
+    line-height: 1em;
+    margin: auto;
+}
+
+.headings h4 {
+    font-style: italic;
+    padding-top: -10px;
+}
+
+.navigation {
+    background-color: #a1a0a0;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation a {
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    color: #485219;
+    display: block;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation .active {
+    color: #f6dcdc;
+}
+
+.navigation a:hover {
+    background-color: #9dc3c2;
+
+}
+
+.responsive li {
+    display: block;
+}
+
+main {
+    max-width: 1090px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+.content {
+    padding: 30px;
+    margin: 20px;
+    background-color: #e0e2dd;
+    border: 1px;
+}
+
+footer {
+    max-width: 1080px;
+    background-color: rgb(62, 65, 66);
+    color: #fff;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+footer a {
+    color: #fff;
+}
+
+#updated {
+    color: yellow;
+    font-size: .90rem;
+    margin: -8px;
+}

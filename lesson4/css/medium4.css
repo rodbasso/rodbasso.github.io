@@ -1,0 +1,23 @@
+@media only screen and (min-width: 33em) {
+    header img{
+        width: 90px;
+    }
+
+    heading h1 {
+        font-size: 2rem;
+
+    }
+
+    h1 {
+        font-size: 2.75em;
+        margin-bottom: 0.1em;
+      }
+
+    footer {
+        
+        font-size: 16px;
+        
+    
+    }
+
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Website | Preston, Idaho</title>
+    <meta name="description" content="Preston, Idaho Forecast - 5 days">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small4.css" rel="stylesheet">
+    <link href="css/medium4.css" rel="stylesheet">
+    <link href="css/large4.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <picture>
+            <img src="images/iconfinder_kweather_18095.png" alt="Sun logo">
+        </picture>
+        <section class="headings">
+            <h1>Basso's Forecast Weather</h1>
+            <h4>It's time to Plan</h4>
+        </section>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#" class="active">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Preston Idaho</h2>
+            <section class="content">Hero with Weather Summary</section>
+            <section class="content">5 Day Forecast</section>
+            <section class="content">Article</section>
+            <section class="content">Contact Info</section>
+        </section>
+    </main>
+
+   <footer>
+    <p>&copy; <span id="year"></span> Basso´s Forecast Weather | Designed by |<a href="../index.html" target="_blank">Rod Basso</a></p>
+    <div id="updated">Last Updated: <span id="currentdate"></span></div>
+    <script src="js/times.js"></script>
+  </footer>
+  
+</body>
+</html>
