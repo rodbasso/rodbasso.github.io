@@ -2,6 +2,8 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.75;
 }
 
 header {
@@ -25,11 +27,19 @@ header img {
     padding-left: 50px;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
 h1 {
     font-size: 1.7em;
     margin-bottom: 0.4em;
-    line-height: 1em;
-    margin: auto;
+    line-height: 1.15em;
 }
 
 .headings h4 {
@@ -204,19 +214,19 @@ main {
     background-color: #e0e2dd;
     padding: 1rem;
     margin-bottom: 0;
-  }
+}
 
-  .contact-img {
+.contact-img {
     display: none;
     margin: 1em;
     width: 45%;
     justify-content: center;
     align-items: center;
-  }
+}
 
-  .contact-img img {
-  width: 100%;
-  border: 1px solid rgba(0, 0, 0, 0.6);
+.contact-img img {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.6);
 }
 
 .contact-box {
@@ -224,15 +234,15 @@ main {
     width: 100%;
     justify-content: center;
     align-items: center;
-  }
+}
 
-  address {
+address {
     font-style: normal;
-  }
+}
 
 address a {
-  color: black;
-  font-size: 0.8em;
+    color: black;
+    font-size: 0.8em;
 }
 
 h2 {
