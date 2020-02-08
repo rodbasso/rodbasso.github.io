@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Website | Preston, Idaho</title>
+    <meta name="description" content="Preston, Idaho Forecast - 5 days">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small5.css" rel="stylesheet">
+    <link href="css/medium5.css" rel="stylesheet">
+    <link href="css/large5.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <picture>
+            <img src="images/iconfinder_kweather_18095.png" alt="Sun logo">
+        </picture>
+        <section class="headings">
+            <h1>Basso's Forecast Weather</h1>
+            <h4>It's time to Plan!</h4>
+        </section>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#" class="active">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Preston Idaho</h2>
+        <div class="section1">
+            <div class="heroimg">
+                <img src="images/heroimg2.jpg" alt="Valley"></div>
+            <section class="weathersummary">
+                <h3>Weather Summary</h3>
+                <div class="wsc">
+                    <div class="box">Currently:</div>
+                    <div>Sunny</div>
+                    <div class="box">Temperature:</div>
+                    <div>88° F</div>
+                    <div class="box">Humidity:</div>
+                    <div>10%</div>
+                    <div class="box">Precipitation:</div>
+                    <div>0 in</div>
+                    <div class="box">Wind Speed:</div>
+                    <div>3 mph</div>
+                </div>
+            </section>
+        </div>
+
+        <div class="section2">
+            <h3>5 Day Forecast</h3>
+            <div class="forecast">
+                <div class="forecast-day">Sun</div>
+                <div class="forecast-day">Mon</div>
+                <div class="forecast-day">Tus</div>
+                <div class="forecast-day">Wed</div>
+                <div class="forecast-day">Thu</div>
+                <div class="forecast-image"><img src="images/sunicon.png" alt="Sunny icon"></div>
+                <div class="forecast-image"><img src="images/sunicon.png" alt="Sunny icon"></div>
+                <div class="forecast-image"><img src="images/sunicon.png" alt="Sunny icon"></div>
+                <div class="forecast-image"><img src="images/sunicon.png" alt="Sunny icon"></div>
+                <div class="forecast-image"><img src="images/sunicon.png" alt="Sunnu icon"></div>
+                <div class="forecast-temp">85° F</div>
+                <div class="forecast-temp">86° F</div>
+                <div class="forecast-temp">87° F</div>
+                <div class="forecast-temp">85° F</div>
+                <div class="forecast-temp">83° F</div>
+
+            </div>
+        </div>
+
+        <div class="section3">
+            <img class="article-img" src="images/napoleondynamite.jpg" alt="Franklin County Courthouse Preston Idaho">
+            <h3 class="article-title">Preston, Idaho: Home Of Napoleon Dynamite</h3>
+            <h4 class="author">by Rod Basso</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+                id est
+                laborum.</p>
+
+        </div>
+
+        <div class="section4">
+            <a class="contact-img" target="_blank"
+                href="https://www.google.com/maps/place/Franklin+County+Court/@42.095898,-111.8802687,17z/data=!3m1!4b1!4m5!3m4!1s0x8754f7eb75a6f563:0x6a3d5cda1aba487c!8m2!3d42.095894!4d-111.87808?hl=en">
+                <img src="images/prestonmap.JPG" alt="Preston map Idaho">
+            </a>
+            <div class="contact-box">
+                <div class="contact">
+                    <address>
+                        <strong>Basso's Forecast Weather</strong><br>5555 E 300 South<br>Preston, ID
+                        88777<br><br>&#9742;
+                        208.555.5454<br>&#9993; <a
+                            href="mailto:info@idahosforecastweather.com">info@idahosforecastweather.com</a>
+                    </address>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Basso´s Forecast Weather | Designed by |<a href="../index.html"
+                target="_blank">Rod Basso</a></p>
+        <div id="updated">Last Updated: <span id="currentdate"></span></div>
+        <script src="js/times.js"></script>
+    </footer>
+
+</body>
+
+</html>
