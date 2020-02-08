@@ -15,3 +15,10 @@ var day = currentDate.getDate();
 var year = currentDate.getFullYear();
 
 document.getElementById('currentdate').textContent = weekday + ", " + day + " " + month + " " + year;
+
+//Banner
+function showBanner() {
+    if (weekday == 'Friday') {
+      document.getElementsByClassName("hidebanner")[0].classList.toggle("hidebanner");
+    }
+  }

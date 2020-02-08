@@ -6,6 +6,19 @@ body {
     line-height: 1.75;
 }
 
+.showbanner {
+    display: block;
+    text-align: center;
+    font-size: 1.25em;
+    line-height: 1.25em;
+    background-color: #e7f4cd;
+    padding: 0.9rem;
+  }
+  
+  .hidebanner {
+    display: none;
+  }
+
 header {
     background-color: rgb(62, 65, 66);
     text-align: center;
