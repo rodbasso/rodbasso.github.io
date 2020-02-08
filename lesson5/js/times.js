@@ -18,7 +18,7 @@ document.getElementById('currentdate').textContent = weekday + ", " + day + " " 
 
 //Banner
 function showBanner() {
-    if (weekday == 'Saturday') {
+    if (weekday == 'Friday') {
       document.getElementsByClassName("hidebanner")[0].classList.toggle("hidebanner");
     }
   }
