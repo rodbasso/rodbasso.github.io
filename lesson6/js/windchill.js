@@ -13,3 +13,5 @@ function WindChill() {
     document.getElementById("windchilltag").innerHTML = "N/A";
   }
 }
+
+WindChill()
