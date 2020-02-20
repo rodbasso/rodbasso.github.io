@@ -1,3 +1,7 @@
+  // Return current year in numeric form
+const options = {year:'numeric'};
+document.getElementById('year').textContent = new Date().toLocaleDateString('en-US', options);
+
   // Return current date in the format "Wednesday, 20 May 2020"
   var currentDate = new Date();
   var weekdayOption = { weekday: 'long' };
