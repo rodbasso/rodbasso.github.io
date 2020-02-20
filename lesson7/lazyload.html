@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lazy Load Webpage</title>
+  <meta name="description" content="Lazy load progressive images demonstration">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/lazy.css">
+</head>
+
+<body>
+  <header>
+    <h1>Lazy Load Demonstration</h1>
+    <h2>Basso Family</h2>
+  </header>
+
+  <main>
+    <figure>
+      <img src="images/placeholder.jpg" data-src="images/dadson.jpg" alt="Dad & Son">
+      <figcaption>My son Maximo and I enjoying the night!</figcaption>
+    </figure>
+
+    <figure>
+      <img src="images/placeholder.jpg" data-src="images/waterfall.jpg" alt="Dad & Son">
+      <figcaption>Del Laja Waterfalls</figcaption>
+    </figure>
+
+    <figure>
+      <img src="images/placeholder.jpg" data-src="images/bassofamily.jpg" alt="Dad & Son">
+      <figcaption>This is my beautiful family</figcaption>
+    </figure>
+
+    <figure>
+      <img src="images/placeholder.jpg" data-src="images/washingtondc.jpg" alt="Dad & Son">
+      <figcaption>Elder Basso in Washington DC Mission</figcaption>
+    </figure>
+
+    <figure>
+      <img src="images/placeholder.jpg" data-src="images/fantasyland.jpg" alt="Dad & Son">
+      <figcaption>Enjoying a day in Fantasyland Park</figcaption>
+    </figure>
+
+    <figure>
+      <img src="images/placeholder.jpg" data-src="images/map.jpg" alt="Dad & Son">
+      <figcaption>Elder Basso at the MTC World Map</figcaption>
+    </figure>
+
+  </main>
+
+  <footer>
+    &copy; <span id="year"></span> Lazy Load Demonstration | by<a href="../index.html" target="_blank"> Rod Basso</a>
+    <div id="updated">Current Updated: <span id="currentdate"></span></div>
+  </footer>
+  <script src="js/lazyscript.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: ['Montserrat', 'Arapey', 'serif', 'sans-serif']
+      }
+    });
+  </script>
+
+</body>
+
+</html>
