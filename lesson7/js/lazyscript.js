@@ -12,13 +12,9 @@ document.getElementById('currentdate').textContent = document.lastModified;*/
 
 // Return current date in the format "Wednesday, 20 May 2020"
 var currentDate = new Date();
-var weekdayOption = {
-    weekday: 'long'
-};
+var weekdayOption = {weekday: 'long'};
 var weekday = currentDate.toLocaleDateString('en-US', weekdayOption);
-var monthOption = {
-    month: 'long'
-};
+var monthOption = {month: 'long'};
 var month = currentDate.toLocaleDateString('en-US', monthOption);
 var day = currentDate.getDate();
 var year = currentDate.getFullYear();
@@ -29,12 +25,11 @@ document.getElementById('currentdate').textContent = weekday + ", " + day + " " 
 let imagesToLoad = document.querySelectorAll("img[data-src]");
 
 const imgOptions = {
-    threshold: 0.30,
-    rootMargin: "0px 0px 50px 0px"
-};
+    threshold: 0.30, 
+    rootMargin: "0px 0px 50px 0px"};
 
 const loadImages = (image) => {
-    image.setAttribute('src', image.getAttribute('data-src'));
+image.setAttribute('src', image.getAttribute('data-src'));
     image.onload = () => {
         image.removeAttribute('data-src');
     };
