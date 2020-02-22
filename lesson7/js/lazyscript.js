@@ -4,10 +4,11 @@ function toggleMenu() {
 }
 
 // Return current year in numeric form
-const options = {
-    year: 'numeric'
-};
+const options = {year: 'numeric'};
 document.getElementById('year').textContent = new Date().toLocaleDateString('en-US', options);
+
+/*Date and time on which the document was last modified
+document.getElementById('currentdate').textContent = document.lastModified;*/
 
 // Return current date in the format "Wednesday, 20 May 2020"
 var currentDate = new Date();
