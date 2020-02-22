@@ -13,11 +13,11 @@ body {
     line-height: 1.25em;
     background-color: #e7f4cd;
     padding: 0.9rem;
-  }
-  
-  .hidebanner {
+}
+
+.hidebanner {
     display: none;
-  }
+}
 
 header {
     background-color: rgb(62, 65, 66);
@@ -37,7 +37,7 @@ header img {
 main figure.heroimg {
     width: 100%;
     margin: 0;
-    
+
 }
 
 main figure.heroimg img {
@@ -65,6 +65,7 @@ h1 {
     margin-bottom: 0.4em;
     line-height: 1.15em;
 }
+
 
 .headings h4 {
     font-style: italic;
@@ -107,7 +108,8 @@ h1 {
 }
 
 main {
-    max-width: 1090px;
+    padding-top: 1rem;
+    max-width: 1080px;
     margin: auto;
 }
 
@@ -118,7 +120,7 @@ main {
 
 .heroimg {
     width: 100%;
-    
+
     margin-left: -3rem;
 }
 
@@ -225,6 +227,44 @@ main {
     font-style: italic;
     margin-top: 0;
     color: rgba(0, 0, 0, 0.6);
+}
+
+.gridpics {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    padding: 2rem;
+    margin: auto;
+}
+
+figure {
+    display: grid;
+    align-content: space-between;
+    justify-content: center;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: 0.5px solid rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 2px 5px 1px rgba(73, 71, 71, 0.2);
+}
+
+figure img {
+    display: grid;
+    width: 100%;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+figure img[data-src] {
+    filter: blur(0.2em);
+}
+
+figure figcaption {
+    display: none;
+    padding: 1rem;
+    text-align: center;
+    align-items: center;
+    max-width: 270px;
+    font-size: 0.9rem;
 }
 
 .section4 {
