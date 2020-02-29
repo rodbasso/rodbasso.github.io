@@ -15,7 +15,8 @@
     </head>
 
     <body onload="showBanner()">
-        <aside class="showbanner hidebanner">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park
+        <aside class="showbanner hidebanner">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city
+            park
             pavilion.
         </aside>
         <header>
@@ -45,63 +46,86 @@
             <p class="center large">Report a Storm in your area</p>
             <form method="get" action="thanks.html">
                 <fieldset class="color1">
-                <legend>User Information</legend>
-                <label class="top">Full Name<span class="red">*</span> <input type="text" name="name" pattern="[a-zA-Z\s]{5,}" required></label>
-                <label class="top">Phone Number<span class="red">*</span> <input type="tel" name="phone" placeholder="3215555555" required></label>
-                <label class="top">Zip Code<span class="red">*</span> <input type="number" name="zip" required></label>
-                <label class="top">Email <input type="email" name="email" placeholder="someone@email.com"></label>
+                    <legend>User Information</legend>
+                    <label class="top">Full Name<span class="red">*</span> <input type="text" name="name"
+                            pattern="[a-zA-Z\s]{5,}" required></label>
+                    <label class="top">Phone Number<span class="red">*</span> <input type="tel" name="phone"
+                            placeholder="3215555555" required></label>
+                    <label class="top">Zip Code<span class="red">*</span> <input type="number" name="zip"
+                            required></label>
+                    <label class="top">Email <input type="email" name="email" placeholder="someone@email.com"></label>
                 </fieldset>
-        
+
                 <fieldset class="color2">
-                <legend>Storm Information</legend>
-                <label class="top">Storm Date <input type="date" name="date"></label>
-                <label class="top">Storm Type
-                    <input list="storms" name="stormtype" placeholder="please select &#9662;">
-                    <datalist id="storms">
-                    <option value="Flash Flood">
-                    <option value="Hail">
-                    <option value="Hurricane">
-                    <option value="Thunderstorm">
-                    <option value="Tornado">
-                    </datalist>
-                </label>
-                <div class="severity">
-                    <label class="severity">Storm Severity 
-                    <div class="severitylabels">
-                        <div class="labelbox"><div>1</div></div>
-                        <div class="labelbox"><div>2</div></div>
-                        <div class="labelbox"><div>3</div></div>
-                        <div class="labelbox"><div>4</div></div>
-                        <div class="labelbox"><div>5</div></div>
-                        <div class="labelbox"><div>6</div></div>
-                        <div class="labelbox"><div>7</div></div>
-                        <div class="labelbox"><div>8</div></div>
-                        <div class="labelbox"><div>9</div></div>
-                        <div class="labelbox"><div>10</div></div>
-                    </div>
-                    <input type="range" name="severity" value="5" min="1" max="10" step="1">
+                    <legend>Storm Information</legend>
+                    <label class="top">Storm Date <input type="date" name="date"></label>
+                    <label class="top">Storm Type
+                        <input list="storms" name="stormtype" placeholder="please select &#9662;">
+                        <datalist id="storms">
+                            <option value="Flash Flood">
+                            <option value="Hail">
+                            <option value="Hurricane">
+                            <option value="Thunderstorm">
+                            <option value="Tornado">
+                        </datalist>
                     </label>
-                </div>
-                <label class="top">Storm Region
-                    <select class="region" name="region">
-                    <option value="" selected disabled hidden>please select &#9662;</option>
-                    <option value="preston">Preston</option>
-                    <option value="sugarcity">Sugar City</option>
-                    <option value="fishhaven">Fish Haven</option>
-                    </select>
-                </label>
-                <div class="danger">Are you in danger?</div>
-                        <label class="sbs"><input type="radio" name="danger" value="yes"> Yes</label>
-                        <label class="sbs"><input type="radio" name="danger" value="maybe"> Maybe</label>
-                        <label class="sbs"><input type="radio" name="danger" value="no"> No</label>
+                    <div class="severity">
+                        <label class="severity">Storm Severity
+                            <div class="severitylabels">
+                                <div class="labelbox">
+                                    <div>1</div>
+                                </div>
+                                <div class="labelbox">
+                                    <div>2</div>
+                                </div>
+                                <div class="labelbox">
+                                    <div>3</div>
+                                </div>
+                                <div class="labelbox">
+                                    <div>4</div>
+                                </div>
+                                <div class="labelbox">
+                                    <div>5</div>
+                                </div>
+                                <div class="labelbox">
+                                    <div>6</div>
+                                </div>
+                                <div class="labelbox">
+                                    <div>7</div>
+                                </div>
+                                <div class="labelbox">
+                                    <div>8</div>
+                                </div>
+                                <div class="labelbox">
+                                    <div>9</div>
+                                </div>
+                                <div class="labelbox">
+                                    <div>10</div>
+                                </div>
+                            </div>
+                            <input type="range" name="severity" value="5" min="1" max="10" step="1">
+                        </label>
+                    </div>
+                    <label class="top">Storm Region
+                        <select class="region" name="region">
+                            <option value="" selected disabled hidden>please select &#9662;</option>
+                            <option value="preston">Preston</option>
+                            <option value="sugarcity">Sugar City</option>
+                            <option value="fishhaven">Fish Haven</option>
+                        </select>
+                    </label>
+                    <div class="danger">Are you in danger?</div>
+                    <label class="sbs"><input type="radio" name="danger" value="yes"> Yes</label>
+                    <label class="sbs"><input type="radio" name="danger" value="maybe"> Maybe</label>
+                    <label class="sbs"><input type="radio" name="danger" value="no"> No</label>
                 </fieldset>
-        
+
                 <fieldset class="color3">
-                <legend>Additional Information</legend>
-                <label class="top">Comments <textarea name="comments" rows="7"></textarea></label>
+                    <legend>Additional Information</legend>
+                    <label class="top">Comments <textarea name="comments" rows="7"></textarea></label>
                 </fieldset>
                 <div class="button-div">
-                <input type="submit" value="Report Storm" class="submitBtn">
+                    <input type="submit" value="Report Storm" class="submitBtn">
                 </div>
             </form>
 
@@ -133,9 +157,9 @@
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
         <script>
             WebFont.load({
-            google: {
-                families: ['Montserrat', 'Arapey', 'serif', 'sans-serif']
-            }
+                google: {
+                    families: ['Montserrat', 'Arapey', 'serif', 'sans-serif']
+                }
             });
         </script>
 
