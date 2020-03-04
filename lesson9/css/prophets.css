@@ -1,0 +1,74 @@
+/* Small*/
+
+body {
+    font-family: 'Arial', Times, serif;
+    background-color: white;
+    text-align: center;
+}
+h1 {
+    color: rgb(27, 16, 175);
+    text-align: center;
+}
+
+main {
+    background-color: rgba(199, 193, 193, 0.733);
+    border: 2px solid lightgray;
+    box-shadow: 1px 5px 20px 15px rgb(97, 105, 112);
+    padding: 1rem;
+    max-width: 1080px;
+    margin: 0 auto;
+    border-radius: 18px 18px 18px 18px;
+}
+
+section h2 {
+    color: rgba(14, 12, 107, 0.849);
+    line-height: 1.5rem;
+    margin: 10px;
+}
+section p {
+    line-height: 2rem;
+    margin: 3px;
+    
+}
+section img {
+    max-width: 12em;
+    
+}
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    flex-wrap: wrap;
+    
+}
+
+section {
+    background-color: rgba(43, 43, 65, 0.205);
+    border-radius: 18px 18px 18px 18px;
+    padding: 1rem;
+    display: grid;
+    justify-items: center;
+    color: rgba(61, 8, 8, 0.849);
+    
+}
+
+footer {
+    padding-top: 5px;
+    padding-bottom: 5px;   
+    text-align: center; 
+    margin: 20px;
+}
+
+/* Medium */
+@media only screen and (min-width: 40em) {
+    .cards {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Large*/
+@media only screen and (min-width: 60em) {
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
