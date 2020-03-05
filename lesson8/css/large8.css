@@ -37,6 +37,32 @@
         flex: 1 1 100%;
     }  
 
+    div.feature {
+      padding: 3rem;
+      margin: 2rem 0;
+    }
+  
+    div.towns {
+      margin: 2rem 0;
+    }
+  
+    div.town-data {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-column-gap: 0.75rem;
+    }
+  
+    div.town-data section {
+      display: block;
+    } 
+  
+    div.town-data section div.town-info {
+      margin: 1rem 2.5rem;
+    }
+  
+    div.town-data section p.motto {
+      height: 50px;
+    }
+
     .section1,
     .section2,
     .section3 {
@@ -74,6 +100,36 @@
       .article-img {
         width: 400px;
         margin-top: -2em;
+      }
+
+      .pic-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+    
+      figure:hover {
+        box-shadow: 5px 5px 20px #333;
+      }
+    
+      figure figcaption {
+        display: grid;
+      }
+    
+      p.large {
+        font-size: 1.25rem;
+      }
+      
+      form fieldset {
+        margin: 2rem auto;
+        max-width: 87vw;
+      }
+    
+      form div.button-div {
+        margin: 2rem auto;
+        max-width: 95vw;
+      }
+    
+      form label.sbs {
+        padding: 0.4rem 0 0 0.75rem;
       }
     
       address {
