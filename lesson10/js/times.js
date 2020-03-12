@@ -1,9 +1,15 @@
-// Toggle the hamburger menu class name upon click
+//hamburger menu class
 function toggleMenu() {
   document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
 }
 
-// Return current date in the format "Wednesday, 20 May 2020"
+// Return current year in numeric form
+const options = {
+  year: 'numeric'
+};
+document.getElementById('year').textContent = new Date().toLocaleDateString('en-US', options);
+
+// Return the date and time on which the document was last modified. format "Monday, 01 Jan 2020"
 var currentDate = new Date();
 var weekdayOption = {
   weekday: 'long'
