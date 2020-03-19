@@ -14,10 +14,7 @@
     <link href="css/large10.css" rel="stylesheet">
 </head>
 
-<body onload="showBanner()">
-    <aside class="showbanner hidebanner">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park
-        pavilion.   
-    </aside>
+<body>
     <header>
         <picture>
             <img src="images/iconfinder_kweather_18095.png" alt="Sun logo">
@@ -32,19 +29,19 @@
         <ul class="navigation">
             <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
             <li><a href="../lesson9/index.html">Home</a></li>
-            <li><a href="preston-10.html" class="active">Preston</a></li>
+            <li><a href="../lesson10/preston-10.html">Preston</a></li>
             <li><a href="../lesson11/sodaspring.html">Soda Springs</a></li>
-            <li><a href="../lesson11/fishhaven.html">Fish Haven</a></li>
+            <li><a href="fishhaven.html" class="active">Fish Haven</a></li>
             <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
             <li><a href="../lesson7/gallery-7.html">Gallery</a></li>
         </ul>
     </nav>
 
     <main>
-        <h2>Preston Idaho</h2>
+        <h2>Fish Haven, Idaho</h2>
         <div class="section1">
             <div class="heroimg">
-                <img src="images/heroimg.jpg" alt="Valley"></div>
+                <img src="images/fishhaven.jpg" alt="Valley"></div>
             <section class="weathersummary">
                 <h3>Weather Summary</h3>
                 <div class="wsc">
@@ -85,16 +82,17 @@
         </div>
 
         <div class="section3">
-            <img class="article-img" src="images/napoleondynamite.jpg" alt="Napoleon Dynamite House, Preston Idaho">
-            <h3 class="article-title">Preston, Idaho: Home Of Napoleon Dynamite</h3>
+            <img class="article-img" src="images/bearlake.jpg" alt="Napoleon Dynamite House, Preston Idaho">
+            <h3 class="article-title">Fish Haven, Idaho: Bear Lake (Idaho–Utah)</h3>
             <h4 class="author">by Rod Basso</h4>
-            <p>Napoleon Dynamite is a 2004 American comedy film produced by Jeremy Coon, Chris Wyatt, Sean Covel and Jory Weitz, 
-                written by Jared and Jerusha Hess and directed by Jared Hess. The film stars Jon Heder in the role of the 
-                title character. <br>
-                The house in the picture was one of the setting for one of the past decade’s most popular cult films.
-                
-                
-                </p>
+            <p>Originally named "Black Bear Lake" by Donald McKenzie, an explorer for the North West Fur Company who
+                explored the lake in 1819, the name was later shortened to Bear Lake.[6] The lake is a popular
+                destination for tourists and sports enthusiasts, and the surrounding valley has gained a reputation for
+                having high-quality raspberries.
+
+                For more information visit: 
+                <a href="https://en.wikipedia.org/wiki/Bear_Lake_(Idaho%E2%80%93Utah)">wikipedia</a> 
+             </p>
 
         </div>
 
@@ -121,17 +119,17 @@
         <p>&copy; <span id="year"></span> Basso´s Forecast Weather | Designed by |<a href="../index.html"
                 target="_blank">Rod Basso</a></p>
         <div id="updated">Current Updated: <span id="currentdate"></span></div>
-     </footer>
-     <script src="js/times.js"></script>
-     <script src="js/prestonweather.js"></script>
-     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-     <script>
+    </footer>
+    <script src="js/times.js"></script>
+    <script src="js/fishweather.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
         WebFont.load({
-          google: {
-            families: ['Montserrat', 'Arapey', 'serif', 'sans-serif']
-          }
+            google: {
+                families: ['Montserrat', 'Arapey', 'serif', 'sans-serif']
+            }
         });
-      </script>
+    </script>
 
 </body>
 
