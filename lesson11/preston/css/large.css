@@ -1,0 +1,87 @@
+@media only screen and (min-width: 60em) {
+
+    header img {
+        width: 100px;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    .headings div {
+        font-size: 1.25em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    h4 {
+
+        margin: 0 0 0 1px;
+        font-style: italic;
+    }
+
+
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }  
+
+    .section1,
+    .section2,
+    .section3 {
+        margin: 2rem 0;
+    }
+
+    .section1 {
+        padding: 0;
+      }
+    
+      .weathersummary {
+        padding: 1.5rem;
+      }
+    
+      .weathersummary h3 {
+        font-size: 1.5em;
+      }
+    
+      .wsc {
+        font-size: 1.25em;
+      }
+    
+      .wsc div {
+        line-height: 1.75rem;
+      }
+    
+      .section h3 {
+        font-size: 1.55em;
+      }
+    
+      .section3 {
+        padding: 3rem;
+      }
+    
+      .article-img {
+        width: 400px;
+        margin-top: -2em;
+      }
+    
+      address {
+        font-size: 1.2em;
+      }
+    
+      address a {
+        font-size: 1em;
+      }
+
+}

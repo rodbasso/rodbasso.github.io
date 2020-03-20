@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Website | Preston, Idaho</title>
+    <meta name="description" content="Preston, Idaho Forecast - 5 days">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+</head>
+
+<body onload="showBanner()">
+    <aside class="showbanner hidebanner">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park
+        pavilion.   
+    </aside>
+    <header>
+        <picture>
+            <img src="images/iconfinder_kweather_18095.png" alt="Sun logo">
+        </picture>
+        <section class="headings">
+            <h1>Basso's Forecast Weather</h1>
+            <h4>It's time to Plan!</h4>
+        </section>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="../home/index.html">Home</a></li>
+            <li><a href="preston.html" class="active">Preston</a></li>
+            <li><a href="../sodaspring/sodaspring.html">Soda Springs</a></li>
+            <li><a href="../fishhaven/fishhaven.html">Fish Haven</a></li>
+            <li><a href="../stormcenter/stormcenter.html">Storm Center</a></li>
+            <li><a href="../gallery/gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Preston Idaho</h2>
+        <div class="section1">
+            <div class="heroimg">
+                <img src="images/heroimg.jpg" alt="Valley"></div>
+            <section class="weathersummary">
+                <h3>Weather Summary</h3>
+                <div class="wsc">
+                    <div class="box">Currently:</div>
+                    <div id="currentcondition"></div>
+                    <div class="box">Temperature:</div>
+                    <div><span id="currenttemp"></span>&deg;F</div>
+                    <div class="box">Wind Chill:</div>
+                    <div id=windchilllabel><span id="windchill"></span>&deg;F</div>
+                    <div class="box">Humidity:</div>
+                    <div><span id="humidity"></span>%</div>
+                    <div class="box">Wind Speed:</div>
+                    <div><span id="windspeed"></span>&nbsp;mph</div>
+                </div>
+            </section>
+        </div>
+
+        <div class="section2">
+            <h3>5 Day Forecast</h3>
+            <div class="forecast">
+                <div class="forecast-day" id="label0"></div>
+                <div class="forecast-day" id="label1"></div>
+                <div class="forecast-day" id="label2"></div>
+                <div class="forecast-day" id="label3"></div>
+                <div class="forecast-day" id="label4"></div>
+                <div class="forecast-image"><img id="image0" src="#" alt="weather icon"></div>
+                <div class="forecast-image"><img id="image1" src="#" alt="weather icon"></div>
+                <div class="forecast-image"><img id="image2" src="#" alt="weather icon"></div>
+                <div class="forecast-image"><img id="image3" src="#" alt="weather icon"></div>
+                <div class="forecast-image"><img id="image4" src="#" alt="weather icon"></div>
+                <div class="forecast-temp"><span id="temp0"></span>&deg;F</div>
+                <div class="forecast-temp"><span id="temp1"></span>&deg;F</div>
+                <div class="forecast-temp"><span id="temp2"></span>&deg;F</div>
+                <div class="forecast-temp"><span id="temp3"></span>&deg;F</div>
+                <div class="forecast-temp"><span id="temp4"></span>&deg;F</div>
+
+            </div>
+        </div>
+
+        <div class="section3">
+            <img class="article-img" src="images/napoleondynamite.jpg" alt="Napoleon Dynamite House, Preston Idaho">
+            <h3 class="article-title">Preston, Idaho: Home Of Napoleon Dynamite</h3>
+            <h4 class="author">by Rod Basso</h4>
+            <p>Napoleon Dynamite is a 2004 American comedy film produced by Jeremy Coon, Chris Wyatt, Sean Covel and Jory Weitz, 
+                written by Jared and Jerusha Hess and directed by Jared Hess. The film stars Jon Heder in the role of the 
+                title character. <br>
+                The house in the picture was one of the setting for one of the past decade’s most popular cult films.
+                
+                
+                </p>
+
+        </div>
+
+        <div class="section4">
+            <a class="contact-img" target="_blank" href="https://www.google.com/maps/place/Napoleon+Dynamite+house/@42.1111645,-111.8432677,17z/data=!3m1!4b1!4m5!3m4!1s0x875459bc19630f05:0xaba429b5b5b5528e!8m2!3d42.1111605!4d-111.841079
+                ">
+                <img src="images/prestonmap.JPG" alt="Preston map Idaho">
+            </a>
+            <div class="contact-box">
+                <div class="contact">
+                    <address>
+                        <strong>Basso's Forecast Weather</strong><br>4444 E 300 South<br>Preston, ID
+                        88777<br><br>&#9742;
+                        208.555.5454<br>&#9993; <a
+                            href="mailto:info@bassosforecastweather.com">info@bassosforecastweather.com</a>
+                    </address>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Basso´s Forecast Weather | Designed by |<a href="../index.html"
+                target="_blank">Rod Basso</a></p>
+        <div id="updated">Current Updated: <span id="currentdate"></span></div>
+     </footer>
+     <script src="js/times.js"></script>
+     <script src="js/prestonweather.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+     <script>
+        WebFont.load({
+          google: {
+            families: ['Montserrat', 'Arapey', 'serif', 'sans-serif']
+          }
+        });
+      </script>
+
+</body>
+
+</html>

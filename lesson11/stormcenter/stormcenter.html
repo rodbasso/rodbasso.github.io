@@ -1,0 +1,164 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Weather Website | Preston, Idaho</title>
+        <meta name="description" content="Preston, Idaho Forecast - 5 days">
+        <link rel="shortcut icon" href="favicon.ico">
+        <link href="css/normalize.css" rel="stylesheet">
+        <link href="css/small.css" rel="stylesheet">
+        <link href="css/medium.css" rel="stylesheet">
+        <link href="css/large.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <picture>
+                <img src="images/iconfinder_kweather_18095.png" alt="Sun logo">
+            </picture>
+            <section class="headings">
+                <h1>Basso's Forecast Weather</h1>
+                <h4>It's time to Plan!</h4>
+            </section>
+        </header>
+
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href="../home/index.html">Home</a></li>
+                <li><a href="../preston/preston.html">Preston</a></li>
+                <li><a href="../sodaspring/sodaspring.html">Soda Springs</a></li>
+                <li><a href="../fishhaven/fishhaven.html">Fish Haven</a></li>
+                <li><a href="stormcenter.html" class="active">Storm Center</a></li>
+                <li><a href="../gallery/gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h2>Storm Center</h2>
+            <p class="center large">Report a Storm in your area</p>
+            <form method="get" action="thanks.html">
+                <fieldset class="color1">
+                    <legend>User Information</legend>
+                    <label class="top">Full Name<span class="red">*</span> <input type="text" name="name"
+                            pattern="[a-zA-Z\s]{5,}" required></label>
+                    <label class="top">Phone Number<span class="red">*</span> <input type="tel" name="phone"
+                            placeholder="3215555555" required></label>
+                    <label class="top">Zip Code<span class="red">*</span> <input type="number" name="zip"
+                            required></label>
+                    <label class="top">Email <input type="email" name="email" placeholder="someone@email.com"></label>
+                </fieldset>
+
+                <fieldset class="color2">
+                    <legend>Storm Information</legend>
+                    <label class="top">Storm Date <input type="date" name="date"></label>
+                    <label class="top">Storm Type
+                        <input list="storms" name="stormtype" placeholder="please select &#9662;">
+                        <datalist id="storms">
+                            <option value="Flash Flood">
+                            <option value="Hail">
+                            <option value="Hurricane">
+                            <option value="Thunderstorm">
+                            <option value="Tornado">
+                        </datalist>
+                    </label>
+                    <div class="severity">
+                        <label class="severity">Storm Severity
+                            <div class="severitylabels">
+                                <div class="labelbox">
+                                    <div>1</div>
+                                </div>
+                                <div class="labelbox">
+                                    <div>2</div>
+                                </div>
+                                <div class="labelbox">
+                                    <div>3</div>
+                                </div>
+                                <div class="labelbox">
+                                    <div>4</div>
+                                </div>
+                                <div class="labelbox">
+                                    <div>5</div>
+                                </div>
+                                <div class="labelbox">
+                                    <div>6</div>
+                                </div>
+                                <div class="labelbox">
+                                    <div>7</div>
+                                </div>
+                                <div class="labelbox">
+                                    <div>8</div>
+                                </div>
+                                <div class="labelbox">
+                                    <div>9</div>
+                                </div>
+                                <div class="labelbox">
+                                    <div>10</div>
+                                </div>
+                            </div>
+                            <input type="range" name="severity" value="5" min="1" max="10" step="1">
+                        </label>
+                    </div>
+                    <label class="top">Storm Region
+                        <select class="region" name="region">
+                            <option value="" selected disabled hidden>please select &#9662;</option>
+                            <option value="preston">Preston</option>
+                            <option value="sugarcity">Sugar City</option>
+                            <option value="fishhaven">Fish Haven</option>
+                        </select>
+                    </label>
+                    <div class="danger">Are you in danger?</div>
+                    <label class="sbs"><input type="radio" name="danger" value="yes"> Yes</label>
+                    <label class="sbs"><input type="radio" name="danger" value="maybe"> Maybe</label>
+                    <label class="sbs"><input type="radio" name="danger" value="no"> No</label>
+                </fieldset>
+
+                <fieldset class="color3">
+                    <legend>Additional Information</legend>
+                    <label class="top">Comments <textarea name="comments" rows="7"></textarea></label>
+                </fieldset>
+                <div class="button-div">
+                    <input type="submit" value="Report Storm" class="submitBtn">
+                </div>
+            </form>
+
+            <div class="section4">
+                <a class="contact-img" target="_blank" href="https://www.google.com/maps/place/Napoleon+Dynamite+house/@42.1111645,-111.8432677,17z/data=!3m1!4b1!4m5!3m4!1s0x875459bc19630f05:0xaba429b5b5b5528e!8m2!3d42.1111605!4d-111.841079
+                    ">
+                    <img src="images/prestonmap.JPG" alt="Preston map Idaho">
+                </a>
+                <div class="contact-box">
+                    <div class="contact">
+                        <address>
+                            <strong>Basso's Forecast Weather</strong><br>4444 E 300 South<br>Preston, ID
+                            88777<br><br>&#9742;
+                            208.555.5454<br>&#9993; <a
+                                href="mailto:info@bassosforecastweather.com">info@bassosforecastweather.com</a>
+                        </address>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer>
+            <p>&copy; <span id="year"></span> Basso´s Forecast Weather | Designed by |<a href="../index.html"
+                    target="_blank">Rod Basso</a></p>
+            <div id="updated">Current Updated: <span id="currentdate"></span></div>
+        </footer>
+        <script src="js/times.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>
+            WebFont.load({
+                google: {
+                    families: ['Montserrat', 'Arapey', 'serif', 'sans-serif']
+                }
+            });
+        </script>
+
+    </body>
+
+    </html>

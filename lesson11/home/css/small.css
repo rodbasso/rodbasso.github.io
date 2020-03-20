@@ -1,0 +1,565 @@
+@import url('https://fonts.googleapis.com/css?family=Arapey|Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.75;
+}
+
+.showbanner {
+    display: block;
+    text-align: center;
+    font-size: 1.25em;
+    line-height: 1.25em;
+    background-color: #e7f4cd;
+    padding: 0.9rem;
+  }
+  
+  .hidebanner {
+    display: none;
+  }
+
+header {
+    background-color: rgb(62, 65, 66);
+    text-align: center;
+    color: #fff;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+header img {
+    display: flex;
+    padding: 1px;
+    width: 50px;
+}
+
+main figure.heroimg {
+    width: 100%;
+    margin: 0;
+    
+}
+
+main figure.heroimg img {
+    position: relative;
+    width: 100%;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 1.7em;
+    margin-bottom: 0.4em;
+    line-height: 1.15em;
+}
+
+.headings h4 {
+    font-style: italic;
+
+}
+
+.navigation {
+    background-color: #a1a0a0;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation a {
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    color: #485219;
+    display: block;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation .active {
+    color: #f6dcdc;
+}
+
+.navigation a:hover {
+    background-color: #9dc3c2;
+
+}
+
+.responsive li {
+    display: block;
+}
+
+main {
+    max-width: 1090px;
+    margin: auto;
+}
+
+div.banner-image img {
+    width: 100%;
+    margin-top: -1rem;
+}
+
+div.feature {
+    background-color: #e7f4cd;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+div.towns {
+    background-color: #a1a0a0;
+    margin: 1rem;
+    padding: 0.75rem;
+}
+
+div.town-data {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-content: center;
+}
+
+div.town-data section {
+    display: grid;
+    grid-template-rows: auto;
+    justify-items: normal;
+    width: 97%;
+    margin: 0.5rem 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+div.town-data section div.town-info {
+    margin: 1rem;
+}
+
+div.town-data section h3 {
+    font-size: 1.25rem;
+    text-align: center;
+    margin: 0;
+}
+
+div.town-data section p {
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+div.town-data section p.motto {
+    font-weight: bold;
+    font-style: italic;
+}
+
+div.town-data section div.town-image {
+    display: grid;
+}
+
+div.town-data section div.town-image img {
+    display: grid;
+    align-self: end;
+    width: 100%;
+}
+
+.section1 {
+    position: relative;
+    margin: 1rem;
+}
+
+.heroimg {
+    width: 100%;
+    
+    margin-left: -3rem;
+}
+
+.weathersummary {
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    background-color: rgba(231, 244, 205, 0.7);
+    padding: 1rem;
+    border-radius: 15px;
+    font-size: .8em;
+}
+
+.weathersummary h3 {
+    font-size: 1.1em;
+    margin: 0;
+}
+
+.wsc {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-gap: 0 0.5rem;
+    margin: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    font-size: 0.9em;
+}
+
+.wsc div {
+    margin: 0;
+    line-height: 1.1rem;
+}
+
+.box {
+    display: grid;
+    justify-items: end;
+}
+
+.section2 {
+    display: none;
+    background-color: #e0e2dd;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.section2 h3 {
+    font-size: 1.25em;
+    text-align: center;
+    margin: -0.5rem 0 0.5rem 0;
+}
+
+.forecast {
+    width: 500px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    border-top: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.forecast div {
+    display: grid;
+    justify-items: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.forecast-image img {
+    width: 80%;
+    padding: 0.75rem;
+}
+
+.forecast-day {
+    font-weight: bold;
+    padding: 0.2rem;
+    color: white;
+    background-color: rgb(62, 65, 66);
+}
+
+.forecast-temp {
+    padding-bottom: 1rem;
+}
+
+.section3 {
+    background-color: #a1a0a0;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.article-img {
+    display: block;
+    margin: 1rem auto;
+    width: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.article-title {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.author {
+    font-style: italic;
+    margin-top: 0;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.gridpics {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    padding: 2rem;
+    margin: auto;
+}
+
+figure {
+    display: grid;
+    align-content: space-between;
+    justify-content: center;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: 0.5px solid rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 2px 5px 1px rgba(73, 71, 71, 0.2);
+}
+
+figure img {
+    display: grid;
+    width: 100%;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+figure img[data-src] {
+    filter: blur(0.2em);
+}
+
+figure figcaption {
+    display: none;
+    padding: 1rem;
+    text-align: center;
+    align-items: center;
+    max-width: 270px;
+    font-size: 0.9rem;
+}
+
+p.center {
+    text-align: center;
+    padding: 0 0.75rem;
+    font-size: 1.5rem;
+}
+
+.red {
+    color: red;
+}
+
+form fieldset {
+    margin: 2rem 0%;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 0 4% 2rem 4%;
+}
+
+form fieldset.color1 {
+    background-color: #eeeeee23;
+}
+
+form fieldset.color2 {
+    background-color: #eeeeee23;
+}
+
+form fieldset.color3 {
+    background-color: #eeeeee23;
+}
+
+form legend {
+    font-family: 'Marcellus', serif;
+    font-size: 1.25rem;
+    margin: 0 1rem;
+    padding: 0 0.5rem;
+    text-shadow: white 1px 1px, white -1px 1px, white 2px 2px 2px, white -2px 2px 2px,
+        white 3px 3px 4px, white -3px 3px 4px, white 4px 4px 6px, white -4px 4px 6px,
+        white 5px 5px 8px, white -5px 5px 8px, white 6px 6px 10px, white -6px 6px 10px;
+}
+
+form label.top,
+form div {
+    display: block;
+    padding-top: 1rem;
+}
+
+form label.top input,
+form label.top select,
+form label.top textarea {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: 0.75rem;
+    color: #555;
+    width: 89%;
+    max-width: 20rem;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+form label input:focus,
+form label select:focus,
+form label textarea:focus {
+    border: 1px solid black;
+    outline: none !important;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+
+form label.sbs {
+    display: block;
+    padding: 3px;
+    color: #555;
+}
+
+form label.top input:required {
+    border-color: red;
+}
+
+form label.top input:required:valid {
+    border-color: #999;
+}
+
+
+form label.severity div.severitylabels {
+    max-width: 21.5rem;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(182, 40, 40);
+    padding: 0;
+    margin-bottom: -10px;
+}
+
+form label.severity div.severitylabels div.labelbox {
+    display: flex;
+    width: 20px;
+    justify-content: center;
+    padding: 0;
+}
+
+form label.severity div.severitylabels div.labelbox div {
+    padding-top: 0;
+    font-size: 0.8rem;
+}
+
+form label.severity input {
+    -webkit-appearance: none;
+    display: block;
+    max-width: 21.5rem;
+    background-color: #efb1b1;
+}
+
+input[type=range] {
+    margin: 20px 0 10px 0;
+    width: 100%;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    height: 3px;
+    background: rgb(246, 123, 123);
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 1px solid #555;
+    height: 28px;
+    width: 20px;
+    border-radius: 4px;
+    background: rgb(228, 228, 228);
+    margin-top: -12px;
+}
+
+form label.top select.region {
+    width: 98%;
+    max-width: 21.5rem;
+}
+
+form div.danger {
+    display: block;
+    padding-top: 1rem;
+    color: #ff0202;
+    font-size: 1rem;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #9c2c13;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin: 0 0 2rem 0;
+    width: 100%;
+    max-width: 20rem;
+    height: 3rem;
+    color: #fff;
+}
+
+form div.button-div {
+    margin: 2rem 2%;
+}
+
+.section4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #e0e2dd;
+    padding: 1rem;
+    margin-bottom: 0;
+}
+
+.contact-img {
+    display: none;
+    margin: 1em;
+    width: 45%;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-img img {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+.contact-box {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+address {
+    font-style: normal;
+}
+
+address a {
+    color: black;
+    font-size: 0.8em;
+}
+
+h2 {
+    text-align: center;
+}
+
+.content {
+    padding: 30px;
+    margin: 20px;
+    background-color: #e0e2dd;
+    border: 1px;
+}
+
+footer {
+    max-width: 1080px;
+    background-color: rgb(62, 65, 66);
+    color: #fff;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+footer a {
+    color: #fff;
+}
+
+#updated {
+    color: yellow;
+    font-size: .90rem;
+    margin: -8px;
+}

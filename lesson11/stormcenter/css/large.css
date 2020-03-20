@@ -1,0 +1,143 @@
+@media only screen and (min-width: 60em) {
+
+    header img {
+        width: 100px;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    .headings div {
+        font-size: 1.25em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    h4 {
+
+        margin: 0 0 0 1px;
+        font-style: italic;
+    }
+
+
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }  
+
+    div.feature {
+      padding: 3rem;
+      margin: 2rem 0;
+    }
+  
+    div.towns {
+      margin: 2rem 0;
+    }
+  
+    div.town-data {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-column-gap: 0.75rem;
+    }
+  
+    div.town-data section {
+      display: block;
+    } 
+  
+    div.town-data section div.town-info {
+      margin: 1rem 2.5rem;
+    }
+  
+    div.town-data section p.motto {
+      height: 50px;
+    }
+
+    .section1,
+    .section2,
+    .section3 {
+        margin: 2rem 0;
+    }
+
+    .section1 {
+        padding: 0;
+      }
+    
+      .weathersummary {
+        padding: 1.5rem;
+      }
+    
+      .weathersummary h3 {
+        font-size: 1.5em;
+      }
+    
+      .wsc {
+        font-size: 1.25em;
+      }
+    
+      .wsc div {
+        line-height: 1.75rem;
+      }
+    
+      .section h3 {
+        font-size: 1.55em;
+      }
+    
+      .section3 {
+        padding: 3rem;
+      }
+    
+      .article-img {
+        width: 400px;
+        margin-top: -2em;
+      }
+
+      .pic-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+    
+      figure:hover {
+        box-shadow: 5px 5px 20px #333;
+      }
+    
+      figure figcaption {
+        display: grid;
+      }
+    
+      p.large {
+        font-size: 1.25rem;
+      }
+      
+      form fieldset {
+        margin: 2rem auto;
+        max-width: 87vw;
+      }
+    
+      form div.button-div {
+        margin: 2rem auto;
+        max-width: 95vw;
+      }
+    
+      form label.sbs {
+        padding: 0.4rem 0 0 0.75rem;
+      }
+    
+      address {
+        font-size: 1.2em;
+      }
+    
+      address a {
+        font-size: 1em;
+      }
+
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Website | Preston, Idaho</title>
+    <meta name="description" content="Preston, Idaho Forecast - 5 days">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small7.css" rel="stylesheet">
+    <link href="css/medium7.css" rel="stylesheet">
+    <link href="css/large7.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <picture>
+            <img src="images/iconfinder_kweather_18095.png" alt="Sun logo">
+        </picture>
+        <section class="headings">
+            <h1>Basso's Forecast Weather</h1>
+            <h4>It's time to Plan!</h4>
+        </section>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="../home/index.html">Home</a></li>
+            <li><a href="../preston/preston.html">Preston</a></li>
+            <li><a href="../sodaspring/sodaspring.html">Soda Springs</a></li>
+            <li><a href="../fishhaven/fishhaven.html">Fish Haven</a></li>
+            <li><a href="../stormcenter/stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html" class="active">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Weather Gallery</h2>
+        <div class="gridpics">
+            <figure>
+                <img src="images/placeholder.jpg" data-src="images/snow.jpg" alt="Snow Forrest">
+                <figcaption>A Beautiful day at the snowy forrest</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/placeholder.jpg" data-src="images/thunders.jpg" alt="Thunders in the sky">
+                <figcaption>Thunderbolts and lightning, very frightening</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/placeholder.jpg" data-src="images/kidrain.jpg" alt="Kid in the Rain">
+                <figcaption>Kid playing in the rain</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/placeholder.jpg" data-src="images/rainbown.jpg" alt="Rainbown">
+                <figcaption>After the Rain, a beautiful rainbown</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/placeholder.jpg" data-src="images/frozenriver.jpg" alt="Frozen River">
+                <figcaption>A cold day and a frozen river</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/placeholder.jpg" data-src="images/mountain.jpg" alt="Mountains and Snow">
+                <figcaption>Mountains cover by the snow</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/placeholder.jpg" data-src="images/coldriver.jpg" alt="Cold River">
+                <figcaption>That water in the river must be very cold!</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/placeholder.jpg" data-src="images/sunnyflorence.jpg" alt="Florence, Italy">
+                <figcaption>A sunny day is Florence, Italy</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/placeholder.jpg" data-src="images/rapanui.jpg" alt="Rapanui, Chile">
+                <figcaption>Easter Island sunset and clouds, Chile</figcaption>
+            </figure>
+        </div>
+
+        <div class="section4">
+            <a class="contact-img" target="_blank" href="https://www.google.com/maps/place/Napoleon+Dynamite+house/@42.1111645,-111.8432677,17z/data=!3m1!4b1!4m5!3m4!1s0x875459bc19630f05:0xaba429b5b5b5528e!8m2!3d42.1111605!4d-111.841079
+                ">
+                <img src="images/prestonmap.JPG" alt="Preston map Idaho">
+            </a>
+            <div class="contact-box">
+                <div class="contact">
+                    <address>
+                        <strong>Basso's Forecast Weather</strong><br>4444 E 300 South<br>Preston, ID
+                        88777<br><br>&#9742;
+                        208.555.5454<br>&#9993; <a
+                            href="mailto:info@bassosforecastweather.com">info@bassosforecastweather.com</a>
+                    </address>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Basso´s Forecast Weather | Designed by |<a href="../index.html"
+                target="_blank">Rod Basso</a></p>
+        <div id="updated">Current Updated: <span id="currentdate"></span></div>
+        <script src="js/lazyscript.js"></script>
+    </footer>
+
+</body>
+
+</html>
