@@ -100,6 +100,15 @@ main {
     margin: auto;
 }
 
+div.towns {
+    background-color: #c4d36d;
+    margin: 1rem;
+    padding: 0.75rem;
+    margin: -0.5rem 0 0.5rem 0;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
 .section1 {
     position: relative;
     margin: 1rem;
