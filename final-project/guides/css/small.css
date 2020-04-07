@@ -70,13 +70,13 @@ h4
     display: block;
 }
 
-div.team {
+div.towns {
     background-color: #a1a0a0;
     margin: 1rem;
     padding: 0.75rem;
 }
 
-div.team-data {
+div.town-data {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
@@ -84,7 +84,7 @@ div.team-data {
     align-content: center;
 }
 
-div.team-data section {
+div.town-data section {
     display: grid;
     grid-template-rows: auto;
     justify-items: normal;
@@ -94,17 +94,17 @@ div.team-data section {
     background-color: rgba(255, 255, 255, 0.4);
 }
 
-div.team-data section div.team-info {
+div.town-data section div.town-info {
     margin: 1rem;
 }
 
-div.team-data section h3 {
+div.town-data section h3 {
     font-size: 1.25rem;
     text-align: center;
     margin: 0;
 }
 
-div.team-data section p {
+div.town-data section p {
     font-size: 0.8rem;
     text-align: center;
     line-height: 1.5rem;
@@ -112,16 +112,16 @@ div.team-data section p {
     padding: 0;
 }
 
-div.team-data section p.motto {
+div.town-data section p.motto {
     font-weight: bold;
     font-style: italic;
 }
 
-div.team-data section div.team-image {
+div.town-data section div.town-image {
     display: grid;
 }
 
-div.team-data section div.team-image img {
+div.town-data section div.town-image img {
     display: grid;
     align-self: end;
     width: 100%;
