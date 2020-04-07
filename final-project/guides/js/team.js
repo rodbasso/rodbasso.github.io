@@ -1,4 +1,4 @@
-const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+const requestURL = 'https://rodbasso.github.io/final-project/guides/towndata.json';
 
 fetch(requestURL)
   .then(function (response) {
@@ -9,9 +9,9 @@ fetch(requestURL)
     const towns = jsonObject['towns'];
 
     for (let i = 0; i < towns.length; i++ ) {
-      if (towns[i].name == "Fish Haven" ||
-          towns[i].name == "Preston" ||
-          towns[i].name == "Soda Springs")
+      if (towns[i].name == "Antonella Basso" ||
+          towns[i].name == "Rodrigo Basso" ||
+          towns[i].name == "Alejandra Herrera")
       {     
         let card = document.createElement('section'); 
         let townInfo = document.createElement('div');
