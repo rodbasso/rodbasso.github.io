@@ -2,8 +2,8 @@
   "towns": [
     {
       "name": "Antonella Basso",
-      "photo": "rb.jpg",
-      "motto": "Team Leader Specialist",
+      "photo": "fishhaven.jpg",
+      "motto": "This is Fish Heaven.",
       "yearFounded": 1864,
       "currentPopulation": 501,
       "averageRainfall": 14.20,
@@ -15,7 +15,7 @@
       ]
     },
     {
-      "name": "Rodrigo Basso",
+      "name": "Preston",
       "photo": "preston.jpg",
       "motto": "Home of Napoleon Dynamite.",
       "yearFounded": 1866,
@@ -28,7 +28,7 @@
       ]
     },
     {
-      "name": "Alejandra Herrera",
+      "name": "Soda Springs",
       "photo": "sodasprings.jpg",
       "motto": "Historic Oregon Trail Oasis. The Soda is on Us.",
       "yearFounded": 1858,
