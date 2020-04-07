@@ -14,10 +14,10 @@
       ]
     },
     {
-      "name": "Antonella Basso",
-      "photo": "rb.jpg",
-      "motto": "Antonella",
-      "Years": 18,
+      "name": "Fish Haven",
+      "photo": "fishhaven.jpg",
+      "motto": "This is Fish Heaven.",
+      "yearFounded": 1864,
       "currentPopulation": 501,
       "averageRainfall": 14.20,
       "events": [
