@@ -1,0 +1,46 @@
+@media only screen and (min-width: 60em) {
+
+  header img {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  .navigation {
+    display: flex;
+  }
+
+  .navigation li:first-child {
+    display: none;
+  }
+
+  .navigation li {
+    display: block;
+    flex: 1 1 100%;
+  }
+
+  p.large {
+    font-size: 1.25rem;
+  }
+
+  form fieldset {
+    margin: 2rem auto;
+    max-width: 87vw;
+  }
+
+  form div.button-div {
+    margin: 2rem auto;
+    max-width: 95vw;
+  }
+
+  form label.sbs {
+    padding: 0.4rem 0 0 0.75rem;
+  }
+
+}

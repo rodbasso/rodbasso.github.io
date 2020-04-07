@@ -1,0 +1,156 @@
+@media only screen and (min-width: 33em) {
+
+    body {
+        font-size: 16px;
+    }
+
+    header img {
+        width: 90px;
+        padding: 0.75rem;
+    }
+
+    main figure.heroimg {
+      padding-bottom: 10px;
+    }
+
+    heading h1 {
+        font-size: 2rem;
+
+    }
+
+    h1 {
+        font-size: 2.75em;
+        margin-bottom: 0.1em;
+    }
+
+    .headings div {
+        font-size: 1.1em;
+    }
+
+    h2 {
+        font-size: 1.75em;
+    }
+
+    nav {
+        font-size: 1em;
+    }
+
+    div.feature {
+      padding: 2rem;
+    }
+  
+    div.towns {
+      padding: 1rem;
+    }
+  
+    div.town-data section {
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    div.town-data section div.town-data {
+      grid-area: a;
+    }
+  
+    div.town-data section div.town-image {
+      grid-area: b;
+    }
+  
+    div.town-data section {
+      grid-template-areas:
+        "a b";
+    }
+  
+    div.town-data section:nth-child(2n) {
+      grid-template-areas:
+        "b a";
+    }
+  
+    div.town-data section div.town-info {
+      align-self: center;
+      margin: 0.5rem 1rem;
+    }
+  
+    div.town-data section h3 {
+      font-size: 1.5rem;
+    }
+  
+    div.town-data section p {
+      font-size: 0.9rem;
+    }
+  
+    div.town-data section div.town-image img {
+      width: 100%;
+      align-self: center;
+    }
+
+    .heroimg img {
+        width: 100%;
+        margin: 0;
+    }
+
+    .weathersummary {
+        padding: 1.25rem;
+      }
+    
+      .weathersummary h3 {
+        font-size: 1.25em;
+      }
+    
+      .wsc {
+        font-size: 1em;
+      }
+    
+      .wsc div {
+        line-height: 1.5rem;
+      }
+    
+      .section2 {
+        display: block;
+      }
+    
+      .section3 {
+        padding: 2rem;
+      }
+    
+      .article-img {
+        float: right;
+        margin: 0 0 0 1rem;
+        width: 45vw;
+      }
+    
+      .article-title {
+        margin-top: 0;
+      }
+
+      .gridpics {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      form legend {
+        font-size: 1.5rem;
+      }
+      
+      form label.top input,
+      form label.top select {
+        width: 100%;
+      }
+
+    
+      .contact-img {
+        display: flex;
+      }
+    
+      .contact-box {
+        width: 45%;
+      }
+    
+      
+      main section {
+        margin: 1.5rem 0 1.5rem 0;
+      }
+
+    footer {
+        font-size: 1em;
+      
+    }
+}

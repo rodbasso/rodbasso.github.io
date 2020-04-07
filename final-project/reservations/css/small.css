@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    background-color: #f0e2d4;
+}
+
+header {
+    background-color: #b0b4b1;
+    text-align: center;
+    color: #fff;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+header img {
+    display: flex;
+    padding: 1px;
+    width: 50px;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+h1 {
+    font-size: 1.7em;
+    margin-bottom: 0.4em;
+    line-height: 1.15em;
+}
+
+
+h2 {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.navigation {
+    background-color: #2320a0;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation a {
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    display: block;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation .active {
+    color: red;  
+}
+
+.navigation a:hover {
+    background-color: #9af170;
+
+}
+
+.responsive li {
+    display: block;
+}
+
+main {
+    max-width: 1090px;
+    margin: auto;
+}
+
+form fieldset {
+    margin: 2rem 0%;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 0 4% 2rem 4%;
+}
+
+form fieldset.color1 {
+    background-color: #fff;
+}
+
+form fieldset.color2 {
+    background-color: #fff;
+}
+
+form fieldset.color3 {
+    background-color: #fff;
+}
+
+form legend {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.25rem;
+    margin: 0 1rem;
+    padding: 0 0.5rem;
+    text-shadow: white 1px 1px, white -1px 1px, white 2px 2px 2px, white -2px 2px 2px,
+        white 3px 3px 4px, white -3px 3px 4px, white 4px 4px 6px, white -4px 4px 6px,
+        white 5px 5px 8px, white -5px 5px 8px, white 6px 6px 10px, white -6px 6px 10px;
+}
+
+form label.top,
+form div {
+    display: block;
+    padding-top: 1rem;
+}
+
+form label.top input,
+form label.top select,
+form label.top textarea {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: 0.75rem;
+    color: #555;
+    width: 89%;
+    max-width: 20rem;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+form label input:focus,
+form label select:focus,
+form label textarea:focus {
+    border: 1px solid black;
+    outline: none !important;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+form label.sbs {
+    display: block;
+    padding: 3px;
+    color: rgb(241, 0, 0);
+}
+
+form label.top input:required {
+    border-color: rgb(255, 0, 21);
+}
+
+form label.top input:required:valid {
+    border-color: rgb(255, 5, 5);
+}
+
+form input.submitBtn {
+    border: 0em;
+    background-color: #afa6a4;
+    margin: 0 0 3rem 0;
+    width: 50%;
+    max-width: 20rem;
+    height: 3rem;
+    color: #000;
+    border-radius: 15px;
+}
+
+form div.button-div {
+    margin: 3rem 3%;
+}
+
+
+footer {
+    background-color: #b0b4b1;
+    color: #fff;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px 20px 20px 20px;
+    
+}

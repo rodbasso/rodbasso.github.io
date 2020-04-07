@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Website | Preston, Idaho</title>
+    <meta name="description" content="Preston, Idaho Forecast - 5 days">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <picture>
+            <img src="images/salmon.jpg" alt="Salmon Logo">
+        </picture>
+        <section class="headings">
+            <h1>Salmon River Adventures Rafting Time</h1>
+            <h4>Have Fun and Adrenaline!</h4>
+        </section>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="/final-project/index.html">Home</a></li>
+            <li><a href="../packages/packages.html">Adventure Packages</a></li>
+            <li><a href="../reservations/reservations.html">Reservations</a></li>
+            <li><a href="guides.html" class="active">Guides</a></li>
+            <li><a href="../contact/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <main>
+        <div class="towns">
+            <h2>Our Team</h2>
+            <div class="town-data"></div>
+        </div>
+
+       
+
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Adventures Rafting Time | <a href="../index.html" target="_blank">Rod Basso</a></p>          
+    </footer>
+</main>
+
+    <script src="js/weather.js"></script>
+    <script src="js/toggle.js"></script>
+    <script src="js/team.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Quicksand', 'sans-serif']
+            }
+        });
+    </script>
+
+</body>
+
+</html>
