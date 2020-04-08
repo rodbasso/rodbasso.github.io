@@ -1,0 +1,28 @@
+{
+  "team": [
+    {
+      "name": "Christine Laos",
+      "photo": "christine.jpg",
+      "level": "Team Leader",
+      "yearExperience": 8,
+      "currentemail": "christine.laos@adventuresrafting.com",
+      "biography": "Text goes here"
+    },
+    {
+      "name": "JP Riverson",
+      "photo": "rb.jpg",
+      "level": "Instructor Senior",
+      "yearExperience": 10,
+      "currentemail": "jp.riverson@adventuresrafting.com",
+      "biography": "Text Goes Here"
+    },
+    {
+      "name": "Han Kooki",
+      "photo": "ale.jpg",
+      "level": "Rescue & Training",
+      "yearExperience": 5,
+      "currentemail": "han.kooki@adventuresrafting.com",
+      "biography": "Text goes here"
+    }
+  ]
+}
