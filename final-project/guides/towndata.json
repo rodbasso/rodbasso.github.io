@@ -3,7 +3,7 @@
     {
       "name": "Anto",
       "photo": "anto.jpg",
-      "motto": "Team Leader",
+      "certification": "Team Leader",
       "yearExperience": 8,
       "currentPopulation": 501,
       "averageRainfall": 14.20,
@@ -17,7 +17,7 @@
     {
       "name": "Rod",
       "photo": "rb.jpg",
-      "motto": "Instructor Senior",
+      "certification": "Instructor Senior",
       "yearExperience": 10,
       "currentPopulation": 5204,
       "averageRainfall": 16.65,
@@ -30,7 +30,7 @@
     {
       "name": "Ale",
       "photo": "ale.jpg",
-      "motto": "Rescue & Training",
+      "certification": "Rescue & Training",
       "yearExperience": 5,
       "currentPopulation": 2985,
       "averageRainfall": 15.75,
