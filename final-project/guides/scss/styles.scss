@@ -1,0 +1,11 @@
+@import "normalize";
+
+@import "small";
+
+@media only screen and (min-width: 33em) {
+@import "medium";
+} /*end of media query*/
+
+@media only screen and (min-width: 60em) {
+@import "large";
+} /*end of media query*/
