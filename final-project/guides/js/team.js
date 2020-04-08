@@ -28,7 +28,7 @@ fetch(requestURL)
         name.textContent = towns[i].name;
         motto.textContent = towns[i].motto;
         motto.className = "motto";
-        founded.textContent = 'Year Founded: ' + towns[i].yearFounded;
+        founded.textContent = 'Year Founded: ' + towns[i].yearExperience;
         population.textContent = 'Population: ' + towns[i].currentPopulation;
         rainfall.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall;
         photo.setAttribute('src', "images/" + towns[i].photo);
