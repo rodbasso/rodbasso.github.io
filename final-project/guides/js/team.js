@@ -1,4 +1,4 @@
-const requestURL = 'https://rodbasso.github.io/final-project/guides/team.json';
+const requestURL = 'https://rodbasso.github.io/final-project/guides/towndata.json';
 
 fetch(requestURL)
   .then(function (response) {
@@ -9,7 +9,7 @@ fetch(requestURL)
     const towns = jsonObject['towns'];
 
     for (let i = 0; i < towns.length; i++ ) {
-      if (towns[i].name == "Antonella Basso" ||
+      if (towns[i].name == "Fish Haven" ||
           towns[i].name == "Preston" ||
           towns[i].name == "Soda Springs")
       {     
