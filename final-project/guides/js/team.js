@@ -19,7 +19,7 @@ fetch(requestURL)
         let name = document.createElement('h3');
         let level = document.createElement('p');
         let experience = document.createElement('p');
-        let population = document.createElement('p');
+        let email = document.createElement('p');
         let rainfall = document.createElement('p');
         let photo = document.createElement('img');
 
@@ -30,7 +30,7 @@ fetch(requestURL)
         level.className = "level";
         level.textContent = 'Level: ' + team[i].level;
         experience.textContent = 'Years Experience: ' + team[i].yearExperience;
-        population.textContent = 'Population: ' + team[i].currentPopulation;
+        email.textContent = 'email: ' + team[i].currentemail;
         rainfall.textContent = 'Annual Rain Fall: ' + team[i].averageRainfall;
         photo.setAttribute('src', "images/" + team[i].photo);
         photo.setAttribute('alt', team[i].name + ' ' + team[i].lastname + ' - ' + (i + 1));
@@ -38,7 +38,7 @@ fetch(requestURL)
         teamInfo.appendChild(name);
         teamInfo.appendChild(level);
         teamInfo.appendChild(experience);
-        teamInfo.appendChild(population);
+        teamInfo.appendChild(email);
         teamInfo.appendChild(rainfall);
         teamImage.appendChild(photo);
         card.appendChild(teamInfo);
