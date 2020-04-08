@@ -31,7 +31,7 @@ fetch(requestURL)
         level.textContent = 'Level: ' + team[i].level;
         experience.textContent = 'Years Experience: ' + team[i].yearExperience;
         email.textContent = 'email: ' + team[i].currentemail;
-        rainfall.textContent = 'Annual Rain Fall: ' + team[i].averageRainfall;
+        rainfall.textContent = 'Annual Rain Fall: ' + team[i].biography;
         photo.setAttribute('src', "images/" + team[i].photo);
         photo.setAttribute('alt', team[i].name + ' ' + team[i].lastname + ' - ' + (i + 1));
 
@@ -39,7 +39,7 @@ fetch(requestURL)
         teamInfo.appendChild(level);
         teamInfo.appendChild(experience);
         teamInfo.appendChild(email);
-        teamInfo.appendChild(rainfall);
+        teamInfo.appendChild(biography);
         teamImage.appendChild(photo);
         card.appendChild(teamInfo);
         card.appendChild(teamImage);
