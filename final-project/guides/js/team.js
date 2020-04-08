@@ -31,7 +31,7 @@ fetch(requestURL)
         level.textContent = 'Level: ' + team[i].level;
         experience.textContent = 'Years Experience: ' + team[i].yearExperience;
         email.textContent = 'email: ' + team[i].currentemail;
-        biography.textContent = 'Annual Rain Fall: ' + team[i].biography;
+        biography.textContent = 'Biography: ' + team[i].biography;
         photo.setAttribute('src', "images/" + team[i].photo);
         photo.setAttribute('alt', team[i].name + ' ' + team[i].lastname + ' - ' + (i + 1));
 
