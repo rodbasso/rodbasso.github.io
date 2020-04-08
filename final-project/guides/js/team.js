@@ -28,6 +28,7 @@ fetch(requestURL)
         name.textContent = towns[i].name;
         level.textContent = towns[i].level;
         level.className = "level";
+        level.textContent = 'Level: ' + towns[i].level;
         founded.textContent = 'Years Experience: ' + towns[i].yearExperience;
         population.textContent = 'Population: ' + towns[i].currentPopulation;
         rainfall.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall;
@@ -43,7 +44,7 @@ fetch(requestURL)
         card.appendChild(townInfo);
         card.appendChild(townImage);
 
-        document.querySelector('div.town-data').appendChild(card);
+        document.querySelector('div.team-data').appendChild(card);
       }
     }
   });
