@@ -1,4 +1,4 @@
-const requestURL = 'https://rodbasso.github.io/final-project/guides/towndata.json ';
+const requestURL = 'https://rodbasso.github.io/final-project/guides/teamdata.json ';
 
 fetch(requestURL)
   .then(function (response) {
@@ -6,16 +6,16 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
-    const towns = jsonObject['towns'];
+    const team = jsonObject['team'];
 
-    for (let i = 0; i < towns.length; i++ ) {
-      if (towns[i].name == "Anto" ||
-          towns[i].name == "Rod" ||
-          towns[i].name == "Ale")
+    for (let i = 0; i < team.length; i++ ) {
+      if (team[i].name == "Anto" ||
+          team[i].name == "Rod" ||
+          team[i].name == "Ale")
       {     
         let card = document.createElement('section'); 
-        let townInfo = document.createElement('div');
-        let townImage = document.createElement('div');
+        let teamInfo = document.createElement('div');
+        let teamImage = document.createElement('div');
         let name = document.createElement('h3');
         let level = document.createElement('p');
         let founded = document.createElement('p');
@@ -23,26 +23,26 @@ fetch(requestURL)
         let rainfall = document.createElement('p');
         let photo = document.createElement('img');
 
-        townInfo.className = "town-info";
-        townImage.className = "town-image";
-        name.textContent = towns[i].name;
-        level.textContent = towns[i].level;
+        teamInfo.className = "team-info";
+        teamImage.className = "team-image";
+        name.textContent = team[i].name;
+        level.textContent = team[i].level;
         level.className = "level";
-        level.textContent = 'Level: ' + towns[i].level;
-        founded.textContent = 'Years Experience: ' + towns[i].yearExperience;
-        population.textContent = 'Population: ' + towns[i].currentPopulation;
-        rainfall.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall;
-        photo.setAttribute('src', "images/" + towns[i].photo);
-        photo.setAttribute('alt', towns[i].name + ' ' + towns[i].lastname + ' - ' + (i + 1));
+        level.textContent = 'Level: ' + team[i].level;
+        founded.textContent = 'Years Experience: ' + team[i].yearExperience;
+        population.textContent = 'Population: ' + team[i].currentPopulation;
+        rainfall.textContent = 'Annual Rain Fall: ' + team[i].averageRainfall;
+        photo.setAttribute('src', "images/" + team[i].photo);
+        photo.setAttribute('alt', team[i].name + ' ' + team[i].lastname + ' - ' + (i + 1));
 
-        townInfo.appendChild(name);
-        townInfo.appendChild(level);
-        townInfo.appendChild(founded);
-        townInfo.appendChild(population);
-        townInfo.appendChild(rainfall);
-        townImage.appendChild(photo);
-        card.appendChild(townInfo);
-        card.appendChild(townImage);
+        teamInfo.appendChild(name);
+        teamInfo.appendChild(level);
+        teamInfo.appendChild(founded);
+        teamInfo.appendChild(population);
+        teamInfo.appendChild(rainfall);
+        teamImage.appendChild(photo);
+        card.appendChild(teamInfo);
+        card.appendChild(teamImage);
 
         document.querySelector('div.team-data').appendChild(card);
       }
