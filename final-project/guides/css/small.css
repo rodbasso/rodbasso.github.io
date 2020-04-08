@@ -94,7 +94,7 @@ div.team-data section {
     background-color: rgba(255, 255, 255, 0.4);
 }
 
-div.team-data section div.town-info {
+div.team-data section div.team-info {
     margin: 1rem;
 }
 
@@ -117,12 +117,12 @@ div.team-data section p.level {
     
 }
 
-div.team-data section div.town-image {
+div.team-data section div.team-image {
     display: grid;
     margin: 0 0 2em 15em;
 }
 
-div.team-data section div.town-image img {
+div.team-data section div.team-image img {
     display: grid;
     align-self: end;
     width: 70%;

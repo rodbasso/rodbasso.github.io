@@ -1,7 +1,7 @@
 {
   "team": [
     {
-      "name": "Anto",
+      "name": "Christine Laos",
       "photo": "anto.jpg",
       "level": "Team Leader",
       "yearExperience": 8,
@@ -15,7 +15,7 @@
       ]
     },
     {
-      "name": "Rod",
+      "name": "Juan Manuel Riverson",
       "photo": "rb.jpg",
       "level": "Instructor Senior",
       "yearExperience": 10,
@@ -28,7 +28,7 @@
       ]
     },
     {
-      "name": "Ale",
+      "name": "Han Kooki",
       "photo": "ale.jpg",
       "level": "Rescue & Training",
       "yearExperience": 5,
