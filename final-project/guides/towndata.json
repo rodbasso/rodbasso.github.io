@@ -18,7 +18,7 @@
       "name": "Rod",
       "photo": "rb.jpg",
       "motto": "Instructor Senior",
-      "yearFounded": 1866,
+      "yearExperience": 10,
       "currentPopulation": 5204,
       "averageRainfall": 16.65,
       "events": [
@@ -31,7 +31,7 @@
       "name": "Ale",
       "photo": "ale.jpg",
       "motto": "Rescue & Training",
-      "yearFounded": 1858,
+      "yearExperience": 5,
       "currentPopulation": 2985,
       "averageRainfall": 15.75,
       "events": [
