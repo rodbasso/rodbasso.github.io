@@ -1,4 +1,4 @@
-const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+const requestURL = 'https://rodbasso.github.io/final-project/guides/towndata.json';
 
 fetch(requestURL)
   .then(function (response) {
