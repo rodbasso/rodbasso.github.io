@@ -9,16 +9,16 @@ fetch(requestURL)
     const team = jsonObject['team'];
 
     for (let i = 0; i < team.length; i++ ) {
-      if (team[i].name == "Anto" ||
-          team[i].name == "Rod" ||
-          team[i].name == "Ale")
+      if (team[i].name == "Christine Laos" ||
+          team[i].name == "JP Riverson" ||
+          team[i].name == "Han Kooki")
       {     
         let card = document.createElement('section'); 
         let teamInfo = document.createElement('div');
         let teamImage = document.createElement('div');
         let name = document.createElement('h3');
         let level = document.createElement('p');
-        let founded = document.createElement('p');
+        let experience = document.createElement('p');
         let population = document.createElement('p');
         let rainfall = document.createElement('p');
         let photo = document.createElement('img');
@@ -29,7 +29,7 @@ fetch(requestURL)
         level.textContent = team[i].level;
         level.className = "level";
         level.textContent = 'Level: ' + team[i].level;
-        founded.textContent = 'Years Experience: ' + team[i].yearExperience;
+        experience.textContent = 'Years Experience: ' + team[i].yearExperience;
         population.textContent = 'Population: ' + team[i].currentPopulation;
         rainfall.textContent = 'Annual Rain Fall: ' + team[i].averageRainfall;
         photo.setAttribute('src', "images/" + team[i].photo);
@@ -37,7 +37,7 @@ fetch(requestURL)
 
         teamInfo.appendChild(name);
         teamInfo.appendChild(level);
-        teamInfo.appendChild(founded);
+        teamInfo.appendChild(experience);
         teamInfo.appendChild(population);
         teamInfo.appendChild(rainfall);
         teamImage.appendChild(photo);
