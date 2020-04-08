@@ -61,21 +61,16 @@ header img {
 .headings {
     display: flex;
     flex-direction: column;
-    padding-left: 10px;
+    padding:0 10px 0 0;
+    margin:8px;
 }
 
-h1 {
-    font-size: 1.7em;
-    margin-bottom: 0.4em;
-    line-height: 1.15em;
-}
-
-
-h2 {
-    text-align: center;
+h1,
+h4
+ {
     font-family: 'Quicksand', sans-serif;
+    
 }
-
 
 .navigation {
     background-color: #2320a0;
@@ -84,7 +79,7 @@ h2 {
 }
 
 .navigation a {
-    padding: 15px;
+    padding: 16px;
     text-decoration: none;
     text-align: center;
     color: #fff;
