@@ -17,7 +17,7 @@ fetch(requestURL)
         let townInfo = document.createElement('div');
         let townImage = document.createElement('div');
         let name = document.createElement('h3');
-        let motto = document.createElement('p');
+        let level = document.createElement('p');
         let founded = document.createElement('p');
         let population = document.createElement('p');
         let rainfall = document.createElement('p');
@@ -26,8 +26,8 @@ fetch(requestURL)
         townInfo.className = "town-info";
         townImage.className = "town-image";
         name.textContent = towns[i].name;
-        motto.textContent = towns[i].motto;
-        motto.className = "motto";
+        level.textContent = towns[i].level;
+        level.className = "level";
         founded.textContent = 'Years Experience: ' + towns[i].yearExperience;
         population.textContent = 'Population: ' + towns[i].currentPopulation;
         rainfall.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall;
@@ -35,7 +35,7 @@ fetch(requestURL)
         photo.setAttribute('alt', towns[i].name + ' ' + towns[i].lastname + ' - ' + (i + 1));
 
         townInfo.appendChild(name);
-        townInfo.appendChild(motto);
+        townInfo.appendChild(level);
         townInfo.appendChild(founded);
         townInfo.appendChild(population);
         townInfo.appendChild(rainfall);
