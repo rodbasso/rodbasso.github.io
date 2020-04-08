@@ -200,6 +200,26 @@ form div.button-div {
 }
 
 
+.contact-img {
+    display: none;
+    margin: 1em;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-img img {
+    width: 80%;
+    border: 1px solid rgba(56, 30, 30, 0.6);
+}
+
+.contact-box {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
 footer {
     background-color: #b0b4b1;
     color: #fff;
