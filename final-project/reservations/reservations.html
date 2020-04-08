@@ -38,8 +38,41 @@
     </nav>
 
     <main>
+    
 
     <h2>Salmon River Adventures Rafting Time</h2>
+    <table>
+        <thead>
+            <tr>
+                <td colspan="3">River Programs</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th>Adventure</th>
+                <th>Level</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Exploring</td>
+                <td>1</td>
+                <td>$350</td>
+            </tr>
+            <tr>
+                <td>Kayak</td>
+                <td>3</td>
+                <td>$600</td>
+            </tr>
+            <tr>
+                <td>Rafting</td>
+                <td>5</td>
+                <td>$700</td>
+            </tr>
+
+        </tbody>
+
+    </table>
     <p>Book an Adventure</p>
     <form method="get" action="thanks.html">
         <fieldset class="color1">
@@ -51,10 +84,9 @@
             <label class="top">Pick a Date <input type="date" name="date"></label>
             <label class="top">Adventure Type <input list="adventures" name="adventuretype" placeholder="please select&#9662;">
                 <datalist id="adventures">
-                    <option value="Rapids">
-                    <option value="Kayaks">
-                    <option value="Rafting">
                     <option value="Exploring"> 
+                    <option value="Kayak">
+                    <option value="Rafting">
                 </datalist>
             </label>
              <label class="top">Comments <textarea name="comments" rows="7"></textarea></label>

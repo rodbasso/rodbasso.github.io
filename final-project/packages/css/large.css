@@ -1,0 +1,55 @@
+@media only screen and (min-width: 60em) {
+
+  header img {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  .navigation {
+    display: flex;
+  }
+
+  .navigation li:first-child {
+    display: none;
+  }
+
+  .navigation li {
+    display: block;
+    flex: 1 1 100%;
+  }
+
+  .article-img {
+    display: block;
+    margin: 0 1em 0 0;
+    width: 45%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+   
+}
+
+  p.large {
+    font-size: 1.25rem;
+  }
+
+  form fieldset {
+    margin: 2rem auto;
+    max-width: 87vw;
+  }
+
+  form div.button-div {
+    margin: 2rem auto;
+    max-width: 95vw;
+  }
+
+  form label.sbs {
+    padding: 0.4rem 0 0 0.75rem;
+  }
+
+}

@@ -6,6 +6,43 @@ body {
     background-color: #f0e2d4;
 }
 
+table {
+    border-collapse: collapse;
+    letter-spacing: 1px;
+    
+    border: 1px solid rgb(190, 190, 190);
+    top: 20%;
+    left: 45%;
+    margin: 2em 0 0 25em;
+  }
+
+  thead {
+    background-color: #2320a0;
+  }
+  
+
+  thead {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  td {
+    text-align: center;
+  }
+
+  td,
+  th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 8px;
+  }
+
+  tbody th {
+    background-color: #b0b4b1;
+    color: white;
+    font-size: 1.2rem;
+  }
+
 header {
     background-color: #b0b4b1;
     text-align: center;
