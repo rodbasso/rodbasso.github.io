@@ -175,26 +175,20 @@ main {
 }
 
 .section3 {
-    
+    background-color: #f0e2d4;
     margin: 2rem;
     padding: 1rem;
 }
 
 .article-img {
     display: block;
-    margin: 1rem auto;
-    width: 90%;
+    margin: 5rem auto;
+    width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: left;
    
 }
 
-.article-img2 {
-    display: block;
-    margin: 1rem auto;
-    width: 90%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-   
-}
 
 
 .author {
