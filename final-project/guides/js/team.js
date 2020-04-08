@@ -20,7 +20,7 @@ fetch(requestURL)
         let level = document.createElement('p');
         let experience = document.createElement('p');
         let email = document.createElement('p');
-        let rainfall = document.createElement('p');
+        let biography = document.createElement('p');
         let photo = document.createElement('img');
 
         teamInfo.className = "team-info";
@@ -31,7 +31,7 @@ fetch(requestURL)
         level.textContent = 'Level: ' + team[i].level;
         experience.textContent = 'Years Experience: ' + team[i].yearExperience;
         email.textContent = 'email: ' + team[i].currentemail;
-        rainfall.textContent = 'Annual Rain Fall: ' + team[i].biography;
+        biography.textContent = 'Annual Rain Fall: ' + team[i].biography;
         photo.setAttribute('src', "images/" + team[i].photo);
         photo.setAttribute('alt', team[i].name + ' ' + team[i].lastname + ' - ' + (i + 1));
 
